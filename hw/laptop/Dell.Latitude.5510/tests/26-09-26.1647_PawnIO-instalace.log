@@ -1,0 +1,48 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260926164738
+Username: DELL_LAT\zk.admin
+RunAs User: DELL_LAT\zk.admin
+Configuration Name: 
+Machine: DELL_LAT (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\repos\max-work\hw\laptop\Dell.Latitude.5510\scripts\26-09-26.1645_PawnIO-instalace-2_2_0.ps1 -OutDir C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests
+Process ID: 8860
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Instaluji PawnIO pres winget...
+The `msstore` source requires that you view the following agreements before using.
+Terms of Transaction: https://aka.ms/microsoft-store-terms-of-transaction
+The source requires the current machine's 2-letter geographic region to be sent to the backend service to function prope
+rly (ex. "US").
+
+Failed when searching source: winget
+An unexpected error occurred while executing the command:
+0x8a15000f : Data required by the source is missing
+
+No packages were found among the working sources.
+winget neuspel nebo chybi, stahuji PawnIO_setup.exe z GitHubu...
+Podpis instalatoru: Valid, E=admin@namazso.eu, CN=namazso.eu, O=namazso, L=Debrecen, C=HU
+Instalator skoncil s kodem 0
+
+
+SERVICE_NAME: PawnIO
+        TYPE               : 1  KERNEL_DRIVER
+        STATE              : 4  RUNNING
+                                (STOPPABLE, NOT_PAUSABLE, IGNORES_SHUTDOWN)
+        WIN32_EXIT_CODE    : 0  (0x0)
+        SERVICE_EXIT_CODE  : 0  (0x0)
+        CHECKPOINT         : 0x0
+        WAIT_HINT          : 0x0
+OK: PawnIO je nainstalovany.
+Log: C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests\26-09-26.1647_PawnIO-instalace.log
+**********************
+Windows PowerShell transcript end
+End time: 20260926164754
+**********************

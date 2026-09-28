@@ -1,0 +1,3 @@
+# Stažené instalační binárky (ISO, exe) — zbytečně velké pro git, netřeba verzovat
+*.iso
+hw/pc/workstation/02-setup/downloads/rufus-*.exe
