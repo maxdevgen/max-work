@@ -112,6 +112,9 @@ def main():
     ap.add_argument("--label", default=platform.node())
     a = ap.parse_args()
 
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+
     ncpu = os.cpu_count()
     procs = [ncpu if p == "all" else int(p) for p in a.procs.split(",")]
     ts = now_prague().strftime("%y-%m-%d.%H%M")
@@ -137,14 +140,20 @@ def main():
         lines.append(f"| {r['kind']} | {r['procs']} | {r['avg_units_per_s']} | {r['first_quarter']} "
                      f"| {r['last_quarter']} | {r['drop_pct']} % |")
     summary = "\n".join(lines) + "\n"
-    print("\n" + summary)
 
+    # Uložit první, vypisovat do konzole až potom — Windows konzole (cp1252) umí spadnout
+    # na diakritice a nechceme kvůli tomu přijít o hotová data.
     os.makedirs(a.out, exist_ok=True)
     base = os.path.join(a.out, f"{ts}_cpu-bench-{a.label}")
     with open(base + ".json", "w", encoding="utf-8") as f:
         json.dump({"info": info, "results": results}, f, ensure_ascii=False, indent=1)
     with open(base + ".md", "w", encoding="utf-8") as f:
         f.write(summary)
+
+    try:
+        print("\n" + summary)
+    except UnicodeEncodeError:
+        print("\n" + summary.encode("ascii", errors="replace").decode("ascii"))
     print(f"Uloženo: {base}.json, {base}.md")
 
 
