@@ -1,0 +1,151 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260926164810
+Username: DELL_LAT\zk.admin
+RunAs User: DELL_LAT\zk.admin
+Configuration Name: 
+Machine: DELL_LAT (Microsoft Windows NT 10.0.26200.0)
+Host Application: powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\repos\max-work\hw\laptop\Dell.Latitude.5510\scripts\26-09-26.1645_Dell-teplota-zatez-test.ps1 -OutDir C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests
+Process ID: 21180
+PSVersion: 5.1.26100.9444
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9444
+BuildVersion: 10.0.26100.9444
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Knihovna: C:\Users\zk.admin\AppData\Local\LibreHardwareMonitor\LibreHardwareMonitorLib.dll
+CPU: Intel Core i5-10310U
+Faze: klid (30 s)
+     0.1s  temp 61 C  clock 3387 MHz (153 % zakl.)  power 16.4626998901367 W  load 17.1900005340576 %
+     2.2s  temp 54 C  clock 1455 MHz (85 % zakl.)  power 4.6696605682373 W  load 12.5900001525879 %
+     4.2s  temp 55 C  clock 3187 MHz (135 % zakl.)  power 11.2466049194336 W  load 14.9399995803833 %
+     6.3s  temp 55 C  clock 803 MHz (148 % zakl.)  power 13.0259923934937 W  load 22.5599994659424 %
+     8.4s  temp 54 C  clock 1004 MHz (59 % zakl.)  power 3.25797581672668 W  load 11.289999961853 %
+    10.5s  temp 55 C  clock 3789 MHz (87 % zakl.)  power 5.80387401580811 W  load 12.5 %
+    12.6s  temp 52 C  clock 1280 MHz (49 % zakl.)  power 2.70058751106262 W  load 9.89000034332275 %
+    14.7s  temp 52 C  clock 903 MHz (68 % zakl.)  power 3.70149731636047 W  load 12.3100004196167 %
+    16.7s  temp 51 C  clock 803 MHz (55 % zakl.)  power 3.08556175231934 W  load 10.0699996948242 %
+    18.8s  temp 51 C  clock 1380 MHz (55 % zakl.)  power 3.1135458946228 W  load 12.0100002288818 %
+    20.9s  temp 51 C  clock 2158 MHz (52 % zakl.)  power 3.03432154655457 W  load 8.46000003814697 %
+      23s  temp 51 C  clock 1004 MHz (56 % zakl.)  power 3.15818119049072 W  load 9.65999984741211 %
+    25.1s  temp 52 C  clock 2308 MHz (58 % zakl.)  power 3.46004581451416 W  load 11.8800001144409 %
+    27.1s  temp 50 C  clock 1907 MHz (58 % zakl.)  power 3.1719708442688 W  load 9.21000003814697 %
+    29.2s  temp 50 C  clock 903 MHz (66 % zakl.)  power 3.93983888626099 W  load 11.1899995803833 %
+Faze: zatez (180 s)
+    31.5s  temp 71 C  clock 4015 MHz (105 % zakl.)  power 5.96681928634644 W  load 12.2399997711182 %
+    33.6s  temp 90 C  clock 3940 MHz (180 % zakl.)  power 50.0680732727051 W  load 100 %
+      36s  temp 93 C  clock 3864 MHz (178 % zakl.)  power 57.2829818725586 W  load 100 %
+    38.5s  temp 96 C  clock 3914 MHz (177 % zakl.)  power 55.7713470458984 W  load 100 %
+    40.9s  temp 98 C  clock 3940 MHz (176 % zakl.)  power 55.7629356384277 W  load 100 %
+    43.3s  temp 98 C  clock 3789 MHz (174 % zakl.)  power 55.1435241699219 W  load 100 %
+    45.6s  temp 97 C  clock 3764 MHz (171 % zakl.)  power 49.7944221496582 W  load 100 %
+    47.8s  temp 98 C  clock 3789 MHz (170 % zakl.)  power 49.280704498291 W  load 100 %
+    50.2s  temp 98 C  clock 3689 MHz (168 % zakl.)  power 49.6564865112305 W  load 100 %
+    52.5s  temp 98 C  clock 3714 MHz (167 % zakl.)  power 47.866828918457 W  load 100 %
+    54.8s  temp 98 C  clock 3689 MHz (166 % zakl.)  power 46.419620513916 W  load 100 %
+    57.2s  temp 90 C  clock 3312 MHz (156 % zakl.)  power 38.6736602783203 W  load 100 %
+    59.3s  temp 89 C  clock 3312 MHz (150 % zakl.)  power 35.3624610900879 W  load 100 %
+    61.5s  temp 89 C  clock 3312 MHz (150 % zakl.)  power 33.1946220397949 W  load 100 %
+    63.9s  temp 88 C  clock 3262 MHz (149 % zakl.)  power 33.6564865112305 W  load 100 %
+      66s  temp 87 C  clock 3212 MHz (147 % zakl.)  power 32.878963470459 W  load 100 %
+    68.2s  temp 86 C  clock 3212 MHz (146 % zakl.)  power 31.6580581665039 W  load 100 %
+    70.5s  temp 85 C  clock 3212 MHz (145 % zakl.)  power 34.1712913513184 W  load 99.9100036621094 %
+    73.1s  temp 85 C  clock 3162 MHz (144 % zakl.)  power 33.3522529602051 W  load 100 %
+    75.4s  temp 84 C  clock 3162 MHz (143 % zakl.)  power 31.8889274597168 W  load 100 %
+    77.7s  temp 84 C  clock 3137 MHz (142 % zakl.)  power 30.0578556060791 W  load 100 %
+    80.1s  temp 83 C  clock 3111 MHz (141 % zakl.)  power 30.0306701660156 W  load 100 %
+    82.4s  temp 83 C  clock 3036 MHz (139 % zakl.)  power 29.1790027618408 W  load 100 %
+    84.5s  temp 81 C  clock 3011 MHz (138 % zakl.)  power 31.107292175293 W  load 100 %
+    87.1s  temp 81 C  clock 3011 MHz (137 % zakl.)  power 29.2722415924072 W  load 100 %
+    89.4s  temp 80 C  clock 2936 MHz (135 % zakl.)  power 28.4872379302979 W  load 100 %
+    91.7s  temp 79 C  clock 2961 MHz (134 % zakl.)  power 26.468412399292 W  load 100 %
+      94s  temp 79 C  clock 2911 MHz (133 % zakl.)  power 26.3107566833496 W  load 100 %
+    96.1s  temp 79 C  clock 2911 MHz (132 % zakl.)  power 26.6057624816895 W  load 100 %
+    98.6s  temp 77 C  clock 2861 MHz (130 % zakl.)  power 25.707088470459 W  load 100 %
+   100.9s  temp 77 C  clock 2810 MHz (128 % zakl.)  power 25.9869785308838 W  load 100 %
+   103.2s  temp 77 C  clock 2810 MHz (128 % zakl.)  power 24.6360931396484 W  load 100 %
+   105.7s  temp 75 C  clock 2785 MHz (126 % zakl.)  power 23.1115055084229 W  load 100 %
+     108s  temp 75 C  clock 2710 MHz (124 % zakl.)  power 23.5293922424316 W  load 100 %
+   110.2s  temp 73 C  clock 2710 MHz (123 % zakl.)  power 22.5223560333252 W  load 100 %
+   112.4s  temp 73 C  clock 2610 MHz (120 % zakl.)  power 22.6065139770508 W  load 100 %
+   114.5s  temp 72 C  clock 2610 MHz (119 % zakl.)  power 21.6610431671143 W  load 100 %
+   116.8s  temp 72 C  clock 2509 MHz (117 % zakl.)  power 19.2436981201172 W  load 100 %
+     119s  temp 72 C  clock 2610 MHz (117 % zakl.)  power 20.6116828918457 W  load 100 %
+   121.1s  temp 71 C  clock 2509 MHz (115 % zakl.)  power 20.0052757263184 W  load 100 %
+   123.2s  temp 70 C  clock 2509 MHz (115 % zakl.)  power 18.4961204528809 W  load 100 %
+   125.3s  temp 70 C  clock 2509 MHz (113 % zakl.)  power 19.5542621612549 W  load 100 %
+   127.4s  temp 68 C  clock 2409 MHz (109 % zakl.)  power 18.3223342895508 W  load 100 %
+   129.5s  temp 68 C  clock 2409 MHz (109 % zakl.)  power 17.6918144226074 W  load 100 %
+   131.6s  temp 67 C  clock 2334 MHz (107 % zakl.)  power 17.1764087677002 W  load 100 %
+   133.7s  temp 67 C  clock 2308 MHz (105 % zakl.)  power 16.5898017883301 W  load 100 %
+   135.9s  temp 67 C  clock 2409 MHz (107 % zakl.)  power 17.2065811157227 W  load 100 %
+     138s  temp 68 C  clock 2509 MHz (110 % zakl.)  power 17.4022541046143 W  load 100 %
+   140.1s  temp 68 C  clock 2559 MHz (114 % zakl.)  power 19.810432434082 W  load 100 %
+   142.2s  temp 69 C  clock 2610 MHz (118 % zakl.)  power 20.5123252868652 W  load 100 %
+   144.3s  temp 70 C  clock 2710 MHz (120 % zakl.)  power 21.0026206970215 W  load 100 %
+   146.4s  temp 71 C  clock 2710 MHz (123 % zakl.)  power 23.4020309448242 W  load 100 %
+   148.5s  temp 72 C  clock 2810 MHz (126 % zakl.)  power 22.8279495239258 W  load 100 %
+   150.5s  temp 73 C  clock 2835 MHz (129 % zakl.)  power 23.2663440704346 W  load 100 %
+   152.6s  temp 72 C  clock 2886 MHz (129 % zakl.)  power 24.5111198425293 W  load 100 %
+   154.7s  temp 72 C  clock 2810 MHz (129 % zakl.)  power 24.9326114654541 W  load 100 %
+   156.8s  temp 73 C  clock 2911 MHz (129 % zakl.)  power 24.319091796875 W  load 100 %
+     159s  temp 71 C  clock 2810 MHz (129 % zakl.)  power 25.2693099975586 W  load 100 %
+     161s  temp 73 C  clock 2810 MHz (129 % zakl.)  power 24.1659069061279 W  load 100 %
+   163.1s  temp 73 C  clock 2810 MHz (128 % zakl.)  power 23.6675968170166 W  load 100 %
+   165.2s  temp 73 C  clock 2810 MHz (128 % zakl.)  power 25.3399181365967 W  load 100 %
+   167.3s  temp 73 C  clock 2810 MHz (127 % zakl.)  power 24.7235889434814 W  load 100 %
+   169.4s  temp 69 C  clock 2409 MHz (124 % zakl.)  power 23.0162582397461 W  load 100 %
+   171.5s  temp 73 C  clock 2810 MHz (125 % zakl.)  power 22.5567455291748 W  load 100 %
+   173.6s  temp 71 C  clock 2785 MHz (125 % zakl.)  power 22.9166412353516 W  load 100 %
+   175.7s  temp 72 C  clock 2760 MHz (124 % zakl.)  power 23.4831314086914 W  load 100 %
+   177.8s  temp 71 C  clock 2710 MHz (124 % zakl.)  power 23.1710071563721 W  load 100 %
+   179.9s  temp 71 C  clock 2710 MHz (123 % zakl.)  power 22.3243885040283 W  load 100 %
+     182s  temp 72 C  clock 2710 MHz (121 % zakl.)  power 20.9655628204346 W  load 100 %
+   184.1s  temp 70 C  clock 2610 MHz (120 % zakl.)  power 19.9665298461914 W  load 100 %
+   186.2s  temp 70 C  clock 2635 MHz (120 % zakl.)  power 21.862133026123 W  load 100 %
+   188.3s  temp 71 C  clock 2685 MHz (119 % zakl.)  power 20.8873500823975 W  load 100 %
+   190.4s  temp 71 C  clock 2635 MHz (120 % zakl.)  power 20.5674114227295 W  load 100 %
+   192.5s  temp 70 C  clock 2610 MHz (119 % zakl.)  power 20.9951610565186 W  load 100 %
+   194.6s  temp 69 C  clock 2610 MHz (121 % zakl.)  power 21.9603843688965 W  load 100 %
+   196.7s  temp 69 C  clock 2610 MHz (120 % zakl.)  power 22.3509788513184 W  load 100 %
+   198.9s  temp 71 C  clock 2710 MHz (121 % zakl.)  power 22.2643203735352 W  load 100 %
+     201s  temp 70 C  clock 2710 MHz (122 % zakl.)  power 21.9830455780029 W  load 100 %
+   203.1s  temp 70 C  clock 2685 MHz (122 % zakl.)  power 22.4781188964844 W  load 100 %
+   205.2s  temp 72 C  clock 2810 MHz (123 % zakl.)  power 22.5831661224365 W  load 100 %
+   207.3s  temp 71 C  clock 2810 MHz (126 % zakl.)  power 23.3627986907959 W  load 100 %
+   209.4s  temp 72 C  clock 2810 MHz (127 % zakl.)  power 22.8804340362549 W  load 100 %
+Faze: dochlazeni (30 s)
+   211.6s  temp 70 C  clock 2936 MHz (128 % zakl.)  power 23.9665279388428 W  load 100 %
+   213.7s  temp 58 C  clock 803 MHz (127 % zakl.)  power 8.37987518310547 W  load 16.5699996948242 %
+   215.7s  temp 57 C  clock 1731 MHz (90 % zakl.)  power 5.56342935562134 W  load 9.52000045776367 %
+   217.8s  temp 55 C  clock 803 MHz (78 % zakl.)  power 4.5274863243103 W  load 8.92000007629395 %
+   219.9s  temp 55 C  clock 1355 MHz (51 % zakl.)  power 2.79857492446899 W  load 7.71000003814697 %
+     222s  temp 59 C  clock 3789 MHz (99 % zakl.)  power 6.66365480422974 W  load 13.2600002288818 %
+   224.1s  temp 56 C  clock 3337 MHz (130 % zakl.)  power 10.9452896118164 W  load 11.2700004577637 %
+   226.1s  temp 53 C  clock 954 MHz (79 % zakl.)  power 4.7076416015625 W  load 9.75 %
+   228.2s  temp 55 C  clock 3162 MHz (86 % zakl.)  power 5.35726976394653 W  load 9.78999996185303 %
+   230.3s  temp 53 C  clock 1430 MHz (90 % zakl.)  power 5.53384923934937 W  load 11.5600004196167 %
+   232.4s  temp 54 C  clock 3061 MHz (128 % zakl.)  power 9.13729572296143 W  load 14.6599998474121 %
+   234.4s  temp 53 C  clock 1480 MHz (122 % zakl.)  power 7.7399754524231 W  load 12.2200002670288 %
+   236.5s  temp 51 C  clock 803 MHz (53 % zakl.)  power 3.10988426208496 W  load 11.3800001144409 %
+   238.6s  temp 51 C  clock 803 MHz (49 % zakl.)  power 2.70332670211792 W  load 7.09999990463257 %
+   240.7s  temp 51 C  clock 1380 MHz (81 % zakl.)  power 4.46213817596436 W  load 8.92000007629395 %
+
+Dell Latitude 5510 - test zateze 26-09-26.1648
+CPU: Intel Core i5-10310U, pracovni procesy: 8, zatez 180 s
+klid        teplota min 50 / prumer 52.9 / max 61 C
+zatez       teplota min 67 / prumer 77.1 / max 98 C
+dochlazeni  teplota min 51 / prumer 55.4 / max 70 C
+Takt v % zakladniho taktu (Windows citac): na zacatku zateze 162 %, na konci 122 % (pokles 25 %)
+Takt na zacatku zateze 3,657 MHz, na konci 2,691 MHz (pokles 26 %)
+Prikon CPU pod zatezi: prumer 27.4 W, max 57.3 W
+CSV:    C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests\26-09-26.1648_Dell-teplota-zatez.csv
+Souhrn: C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests\26-09-26.1648_Dell-teplota-zatez-souhrn.txt
+Log:    C:\repos\max-work\hw\laptop\Dell.Latitude.5510\tests\26-09-26.1648_Dell-teplota-zatez.log
+**********************
+Windows PowerShell transcript end
+End time: 20260926165219
+**********************

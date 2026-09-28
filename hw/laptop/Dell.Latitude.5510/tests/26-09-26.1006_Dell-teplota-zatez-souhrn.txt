@@ -1,0 +1,6 @@
+﻿Dell Latitude 5510 - test zateze 26-09-26.1006
+CPU: Intel Core i5-10310U, pracovni procesy: 8, zatez 180 s
+klid : teplota nenactena
+zatez : teplota nenactena
+dochlazeni : teplota nenactena
+Takt v % zakladniho taktu (Windows citac): na zacatku zateze 158 %, na konci 126 % (pokles 20 %)

@@ -1,0 +1,8 @@
+﻿Dell Latitude 5510 - test zateze 26-09-26.1648
+CPU: Intel Core i5-10310U, pracovni procesy: 8, zatez 180 s
+klid        teplota min 50 / prumer 52.9 / max 61 C
+zatez       teplota min 67 / prumer 77.1 / max 98 C
+dochlazeni  teplota min 51 / prumer 55.4 / max 70 C
+Takt v % zakladniho taktu (Windows citac): na zacatku zateze 162 %, na konci 122 % (pokles 25 %)
+Takt na zacatku zateze 3,657 MHz, na konci 2,691 MHz (pokles 26 %)
+Prikon CPU pod zatezi: prumer 27.4 W, max 57.3 W
