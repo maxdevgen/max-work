@@ -1,12 +1,14 @@
 #!/usr/bin/env bash
-# Lehký test a měření teplot — orchestrace kroků 0–5 z docs/26-09-28.1109_prvni-lehky-test-a-teploty.md
+# Lehký test a měření teplot — orchestrace kroků 0–5 z docs/26-09-28.1109_SAPPHIRE_lehky-test-a-teploty/
+# Výstup: docs/YY-MM-DD.HHMM_SAPPHIRE_lehky-test/ (každý běh vlastní adresář)
 # Watchdog: SSD Composite >= 60 °C nebo CPU Tctl >= 90 °C → zátěž se ukončí, další zátěžové fáze se přeskočí
 set -uo pipefail
 
 here=$(cd "$(dirname "$0")" && pwd)
-OUT=$(cd "$here/../docs" && pwd)
 TS=${TS:-$(TZ=Europe/Prague date '+%y-%m-%d.%H%M')}
-P="$OUT/${TS}_test"
+OUT="$(cd "$here/../docs" && pwd)/${TS}_SAPPHIRE_lehky-test"
+mkdir -p "$OUT"
+P="$OUT/${TS}_SAPPHIRE_test"
 SSD_MAX=60; CPU_MAX=90
 BASE=${BASE:-300}; CPU_T=${CPU_T:-300}; COOL1=${COOL1:-180}; COOL2=${COOL2:-300}
 FIO_FILE="$HOME/fio-test.bin"
@@ -50,7 +52,7 @@ echo "time,phase,event" > "$P-30-phases.csv"
 
 # Krok 0 + 1 — root část (jeden pkexec dialog)
 phase root start
-pkexec "$here/light-test-root.sh" "$OUT" "$TS" "$(id -un)"; phase root "end rc=$?"
+pkexec "$here/light-test-root.sh" "$P" "$(id -un)"; phase root "end rc=$?"
 { free -h; cat /sys/class/drm/card*/device/mem_info_vram_total; } > "$P-15-memory.txt"
 sensors > "$P-16-sensors.txt" 2>&1
 for c in stress-ng fio; do command -v "$c" >/dev/null || { echo "Chybí $c — konec."; exit 1; }; done
