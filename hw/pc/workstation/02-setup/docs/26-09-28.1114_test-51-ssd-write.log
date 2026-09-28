@@ -1,0 +1,30 @@
+seqwrite: (g=0): rw=write, bs=(R) 1024KiB-1024KiB, (W) 1024KiB-1024KiB, (T) 1024KiB-1024KiB, ioengine=libaio, iodepth=8
+fio-3.39
+Starting 1 process
+seqwrite: Laying out IO file (1 file / 1024MiB)
+
+seqwrite: (groupid=0, jobs=1): err= 0: pid=14911: Mon Sep 28 11:35:08 2026
+  write: IOPS=5657, BW=5657MiB/s (5932MB/s)(1024MiB/181msec); 0 zone resets
+    slat (usec): min=11, max=323, avg=37.74, stdev=30.56
+    clat (usec): min=480, max=9322, avg=1365.42, stdev=1070.98
+     lat (usec): min=577, max=9379, avg=1403.16, stdev=1072.96
+    clat percentiles (usec):
+     |  1.00th=[  676],  5.00th=[ 1090], 10.00th=[ 1123], 20.00th=[ 1139],
+     | 30.00th=[ 1156], 40.00th=[ 1156], 50.00th=[ 1156], 60.00th=[ 1172],
+     | 70.00th=[ 1188], 80.00th=[ 1221], 90.00th=[ 1319], 95.00th=[ 1582],
+     | 99.00th=[ 8717], 99.50th=[ 8717], 99.90th=[ 8848], 99.95th=[ 9372],
+     | 99.99th=[ 9372]
+  lat (usec)   : 500=0.10%, 750=1.17%, 1000=1.27%
+  lat (msec)   : 2=93.55%, 4=0.98%, 10=2.93%
+  cpu          : usr=11.11%, sys=11.67%, ctx=1001, majf=0, minf=8
+  IO depths    : 1=0.1%, 2=0.2%, 4=0.4%, 8=99.3%, 16=0.0%, 32=0.0%, >=64=0.0%
+     submit    : 0=0.0%, 4=100.0%, 8=0.0%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     complete  : 0=0.0%, 4=99.9%, 8=0.1%, 16=0.0%, 32=0.0%, 64=0.0%, >=64=0.0%
+     issued rwts: total=0,1024,0,0 short=0,0,0,0 dropped=0,0,0,0
+     latency   : target=0, window=0, percentile=100.00%, depth=8
+
+Run status group 0 (all jobs):
+  WRITE: bw=5657MiB/s (5932MB/s), 5657MiB/s-5657MiB/s (5932MB/s-5932MB/s), io=1024MiB (1074MB), run=181-181msec
+
+Disk stats (read/write):
+  nvme0n1: ios=288/6291, sectors=6040/1609560, merge=0/38, ticks=23/8151, in_queue=8176, util=56.45%

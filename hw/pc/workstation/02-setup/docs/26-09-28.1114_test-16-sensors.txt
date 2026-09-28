@@ -1,0 +1,36 @@
+mt7921_phy0-pci-c100
+Adapter: PCI adapter
+temp1:        +46.0°C  
+
+k10temp-pci-00c3
+Adapter: PCI adapter
+Tctl:         +45.9°C  
+
+nvme-pci-c300
+Adapter: PCI adapter
+Composite:    +40.9°C  (low  = -273.1°C, high = +80.8°C)
+                       (crit = +84.8°C)
+Sensor 1:     +52.9°C  (low  = -273.1°C, high = +65261.8°C)
+Sensor 2:     +40.9°C  (low  = -273.1°C, high = +65261.8°C)
+
+acpitz-acpi-0
+Adapter: ACPI interface
+temp1:        +46.0°C  
+
+spd5118-i2c-2-50
+Adapter: SMBus PIIX4 adapter port 0 at 0b00
+temp1:        +42.0°C  (low  =  +0.0°C, high = +55.0°C)
+                       (crit low =  +0.0°C, crit = +85.0°C)
+
+amdgpu-pci-c400
+Adapter: PCI adapter
+vddgfx:        0.00 V  
+vddnb:         0.00 V  
+edge:         +43.0°C  
+PPT:           5.03 W  (avg =   5.03 W)
+sclk:         889 MHz 
+
+acpi_fan-isa-0000
+Adapter: ISA adapter
+fan1:             N/A
+

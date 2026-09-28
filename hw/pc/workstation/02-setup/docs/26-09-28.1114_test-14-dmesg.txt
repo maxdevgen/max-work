@@ -1,0 +1,6 @@
+[    4.174629] amdgpu 0000:c4:00.0: [drm] REG_WAIT timeout 1us * 100000 tries - optc35_disable_crtc line:162
+[    5.342523] Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+[    6.153746] nvme nvme0: using unchecked data buffer
+[    6.326984] Bluetooth: hci0: HCI Enhanced Setup Synchronous Connection command is advertised, but not supported.
+[   42.377642] show_signal: 115 callbacks suppressed
+[   47.235617] warning: `ThreadPoolForeg' uses wireless extensions which will stop working for Wi-Fi 7 hardware; use nl80211
