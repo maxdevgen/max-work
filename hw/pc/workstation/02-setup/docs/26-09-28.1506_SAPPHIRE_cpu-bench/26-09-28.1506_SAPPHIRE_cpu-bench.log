@@ -1,0 +1,74 @@
+{"label": "sapphire", "time": "2026-09-28T15:06:13+02:00", "machine": "sapphire", "os": "Linux-6.12.107+deb13-amd64-x86_64-with-glibc2.41", "cpu": "x86_64", "logical_cpus": 24, "python": "3.13.5"}
+  py   procs= 1 t=   5s     329.59 u/s  cpu 86 °C  4939 MHz
+  py   procs= 1 t=  10s     329.33 u/s  cpu 87 °C  4934 MHz
+  py   procs= 1 t=  15s     326.94 u/s  cpu 88 °C  4939 MHz
+  py   procs= 1 t=  20s     329.94 u/s  cpu 88 °C  4945 MHz
+  py   procs= 1 t=  25s     328.94 u/s  cpu 88 °C  4944 MHz
+  py   procs= 1 t=  30s     330.34 u/s  cpu 87 °C  4940 MHz
+  py   procs= 8 t=   5s    1871.17 u/s  cpu 72 °C  3881 MHz
+  py   procs= 8 t=  10s    1757.29 u/s  cpu 70 °C  3850 MHz
+  py   procs= 8 t=  15s    1757.93 u/s  cpu 71 °C  3853 MHz
+  py   procs= 8 t=  20s    1759.73 u/s  cpu 72 °C  3857 MHz
+  py   procs= 8 t=  25s    1755.13 u/s  cpu 72 °C  3858 MHz
+  py   procs= 8 t=  30s    1753.53 u/s  cpu 73 °C  3856 MHz
+  py   procs= 8 t=  35s    1756.13 u/s  cpu 73 °C  3855 MHz
+  py   procs= 8 t=  40s    1736.93 u/s  cpu 73 °C  3826 MHz
+  py   procs= 8 t=  45s    1751.56 u/s  cpu 74 °C  3855 MHz
+  py   procs= 8 t=  50s    1742.53 u/s  cpu 74 °C  3852 MHz
+  py   procs= 8 t=  55s    1756.94 u/s  cpu 74 °C  3845 MHz
+  py   procs= 8 t=  60s    1752.54 u/s  cpu 74 °C  3852 MHz
+  py   procs= 8 t=  65s    1750.36 u/s  cpu 74 °C  3854 MHz
+  py   procs= 8 t=  70s    1756.34 u/s  cpu 74 °C  3853 MHz
+  py   procs= 8 t=  75s    1757.16 u/s  cpu 75 °C  3853 MHz
+  py   procs= 8 t=  80s    1751.34 u/s  cpu 75 °C  3853 MHz
+  py   procs= 8 t=  85s    1754.72 u/s  cpu 75 °C  3853 MHz
+  py   procs= 8 t=  90s    1756.54 u/s  cpu 75 °C  3854 MHz
+  py   procs= 8 t=  95s    1756.34 u/s  cpu 75 °C  3844 MHz
+  py   procs= 8 t= 100s    1756.34 u/s  cpu 75 °C  3837 MHz
+  py   procs= 8 t= 105s    1751.76 u/s  cpu 75 °C  3841 MHz
+  py   procs= 8 t= 110s    1750.79 u/s  cpu 75 °C  3846 MHz
+  py   procs= 8 t= 115s    1758.98 u/s  cpu 75 °C  3827 MHz
+  py   procs= 8 t= 120s    1764.75 u/s  cpu 76 °C  3835 MHz
+  zlib procs= 1 t=   5s     528.79 u/s  cpu 75 °C  5067 MHz
+  zlib procs= 1 t=  10s     529.31 u/s  cpu 76 °C  5076 MHz
+  zlib procs= 1 t=  15s     529.72 u/s  cpu 76 °C  5072 MHz
+  zlib procs= 1 t=  20s     530.11 u/s  cpu 76 °C  5078 MHz
+  zlib procs= 1 t=  25s     530.08 u/s  cpu 76 °C  5083 MHz
+  zlib procs= 1 t=  30s     530.29 u/s  cpu 75 °C  5079 MHz
+  zlib procs= 8 t=   5s    3217.34 u/s  cpu 72 °C  4222 MHz
+  zlib procs= 8 t=  10s    3111.69 u/s  cpu 69 °C  4234 MHz
+  zlib procs= 8 t=  15s    3114.74 u/s  cpu 70 °C  4233 MHz
+  zlib procs= 8 t=  20s    3104.75 u/s  cpu 71 °C  4229 MHz
+  zlib procs= 8 t=  25s    3083.19 u/s  cpu 71 °C  4165 MHz
+  zlib procs= 8 t=  30s    3059.83 u/s  cpu 71 °C  4197 MHz
+  zlib procs= 8 t=  35s    3088.34 u/s  cpu 72 °C  4211 MHz
+  zlib procs= 8 t=  40s    3076.17 u/s  cpu 72 °C  4194 MHz
+  zlib procs= 8 t=  45s    3069.96 u/s  cpu 72 °C  4162 MHz
+  zlib procs= 8 t=  50s    3075.40 u/s  cpu 73 °C  4181 MHz
+  zlib procs= 8 t=  55s    3084.01 u/s  cpu 73 °C  4197 MHz
+  zlib procs= 8 t=  60s    3093.02 u/s  cpu 74 °C  4209 MHz
+  zlib procs= 8 t=  65s    3097.02 u/s  cpu 73 °C  4185 MHz
+  zlib procs= 8 t=  70s    3100.99 u/s  cpu 74 °C  4207 MHz
+  zlib procs= 8 t=  75s    3098.77 u/s  cpu 74 °C  4194 MHz
+  zlib procs= 8 t=  80s    3104.38 u/s  cpu 74 °C  4191 MHz
+  zlib procs= 8 t=  85s    3102.41 u/s  cpu 74 °C  4194 MHz
+  zlib procs= 8 t=  90s    3097.99 u/s  cpu 74 °C  4200 MHz
+  zlib procs= 8 t=  95s    3102.05 u/s  cpu 74 °C  4162 MHz
+  zlib procs= 8 t= 100s    3073.79 u/s  cpu 74 °C  4212 MHz
+  zlib procs= 8 t= 105s    3101.40 u/s  cpu 74 °C  4199 MHz
+  zlib procs= 8 t= 110s    3100.76 u/s  cpu 74 °C  4200 MHz
+  zlib procs= 8 t= 115s    3099.93 u/s  cpu 75 °C  4196 MHz
+  zlib procs= 8 t= 120s    3098.93 u/s  cpu 74 °C  4186 MHz
+
+# CPU benchmark — sapphire (2026-09-28T15:06:13+02:00)
+
+Stroj: sapphire, Linux-6.12.107+deb13-amd64-x86_64-with-glibc2.41, 24 logických jader, Python 3.13.5
+
+| Zátěž | Procesy | Průměr (jednotek/s) | 1. čtvrtina | Poslední čtvrtina | Pokles |
+|---|---:|---:|---:|---:|---:|
+| py | 1 | 329.18 | 329.59 | 330.34 | -0.2 % |
+| py | 8 | 1759.03 | 1775.8 | 1756.49 | 1.1 % |
+| zlib | 1 | 529.72 | 528.79 | 530.29 | -0.3 % |
+| zlib | 8 | 3098.2 | 3115.26 | 3096.14 | 0.6 % |
+
+Uloženo: /home/max/repos/max-work/hw/pc/workstation/02-setup/docs/26-09-28.1506_cpu-bench-sapphire.json, /home/max/repos/max-work/hw/pc/workstation/02-setup/docs/26-09-28.1506_cpu-bench-sapphire.md

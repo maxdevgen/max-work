@@ -88,6 +88,10 @@ Hardwarová část (osazení SSD a RAM) je z velké části hotová, viz [instal
 
 - [ ] Externí WD Purple přes USB pro nahrávání (ne na interní SSD)
 - [ ] OBS Studio, nastavení nahrávání do MKV
+- [ ] 9.1 Hardwarový enkodér (VAAPI, AMD Radeon 890M/VCN) — postup a zdůvodnění: [docs/26-09-28.1653_use-case-video-enkodovani-a-OBS.md §2](docs/26-09-28.1653_use-case-video-enkodovani-a-OBS.md#2-use-case-2--obs-studio-s-hardwarovým-enkodérem-na-sapphire)
+  - 9.1.1 `sudo apt install -y mesa-va-drivers vainfo obs-studio` (Flatpak `com.obsproject.Studio` jako záloha, pokud repo verze chybí AV1/nové VAAPI funkce)
+  - 9.1.2 `vainfo` — ověřit profily H.264/HEVC/AV1 s `VAEntrypointEncSlice`
+  - 9.1.3 OBS → Settings → Output → Encoder → vybrat AV1/HEVC/H.264 (VAAPI, hardware)
 
 ## §10. Ověření use-case
 

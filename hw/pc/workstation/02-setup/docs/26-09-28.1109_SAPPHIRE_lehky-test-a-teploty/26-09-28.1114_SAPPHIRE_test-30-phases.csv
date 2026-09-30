@@ -1,0 +1,20 @@
+time,phase,event
+11:14:42,root,start
+11:17:03,root,end rc=0
+11:17:03,baseline,start
+11:22:03,baseline,end
+11:22:03,41-cpu25,start
+11:27:05,41-cpu25,end rc=0
+11:27:05,42-cpu50,start
+11:32:07,42-cpu50,end rc=0
+11:32:07,cool1,start
+11:35:07,cool1,end
+11:35:07,51-ssd-write,start
+11:35:09,51-ssd-write,end rc=0
+11:35:09,52-ssd-read,start
+11:35:31,52-ssd-read,end rc=0
+11:35:31,53-ssd-randread,start
+11:36:03,53-ssd-randread,end rc=0
+11:36:03,cool2,start
+11:41:03,cool2,end
+11:41:03,done,aborted=0

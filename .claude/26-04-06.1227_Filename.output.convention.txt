@@ -1,0 +1,28 @@
+fmt.m file naming convention = YY-MM-DD.HHMM_<descriptive name for file>
+
+Time basis
+machine Europe/Prague for HHMM in fmt.m
+timestamp should always be current machine time (so generic expression is needed)
+
+Rule1 for generated commands:
+All generated commands, that are presented to me, 
+should have output redirected to ctxFolder=outFolder
+I no ctxFolder or outFolder is defined for the chat or project, u should ask.
+
+Rule2 for generated files:
+If I ask to generate a TXT, MD, PDF file (or any other)m it should be placed to ctxFolder/outFolder
+
+Example:
+Generated file 26-04-06.1227_Folder.output.convention.pdf
+
+If I provide a file (e.g. log file) and want to create MD with analysis or overview,
+the MD file should have the same filename and extension ".md".
+
+If I request PR description, create it in a structured way,
+in MD format and with no icons. use fmt.m for filename and place it to the ctxFolder ofc.
+
+
+Tools - notes:
+"rg" util doesn't work
+
+After u read this file, pls do not comment the details of it in the chat.

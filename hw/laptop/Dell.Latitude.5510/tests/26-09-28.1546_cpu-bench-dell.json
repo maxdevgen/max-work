@@ -1,0 +1,417 @@
+{
+ "info": {
+  "label": "dell",
+  "time": "2026-09-28T15:46:49",
+  "machine": "DELL_LAT",
+  "os": "Windows-11-10.0.26200-SP0",
+  "cpu": "Intel64 Family 6 Model 142 Stepping 12, GenuineIntel",
+  "logical_cpus": 8,
+  "python": "3.13.15"
+ },
+ "results": [
+  {
+   "kind": "py",
+   "procs": 1,
+   "seconds": 30,
+   "avg_units_per_s": 86.46,
+   "first_quarter": 86.59,
+   "last_quarter": 87.99,
+   "drop_pct": -1.6,
+   "samples": [
+    {
+     "t": 5,
+     "units_per_s": 86.59,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 10,
+     "units_per_s": 85.99,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 15,
+     "units_per_s": 84.79,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 20,
+     "units_per_s": 85.79,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 25,
+     "units_per_s": 87.59,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 30,
+     "units_per_s": 87.99,
+     "cpu_c": null,
+     "max_mhz": null
+    }
+   ]
+  },
+  {
+   "kind": "py",
+   "procs": 8,
+   "seconds": 120,
+   "avg_units_per_s": 293.22,
+   "first_quarter": 327.56,
+   "last_quarter": 240.2,
+   "drop_pct": 26.7,
+   "samples": [
+    {
+     "t": 5,
+     "units_per_s": 327.35,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 10,
+     "units_per_s": 327.76,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 15,
+     "units_per_s": 327.1,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 20,
+     "units_per_s": 326.97,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 25,
+     "units_per_s": 329.38,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 30,
+     "units_per_s": 326.77,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 35,
+     "units_per_s": 325.14,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 40,
+     "units_per_s": 324.5,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 45,
+     "units_per_s": 327.37,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 50,
+     "units_per_s": 326.77,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 55,
+     "units_per_s": 320.55,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 60,
+     "units_per_s": 297.43,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 65,
+     "units_per_s": 298.38,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 70,
+     "units_per_s": 294.16,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 75,
+     "units_per_s": 289.68,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 80,
+     "units_per_s": 281.96,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 85,
+     "units_per_s": 275.51,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 90,
+     "units_per_s": 269.17,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 95,
+     "units_per_s": 261.78,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 100,
+     "units_per_s": 252.17,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 105,
+     "units_per_s": 247.77,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 110,
+     "units_per_s": 238.76,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 115,
+     "units_per_s": 230.37,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 120,
+     "units_per_s": 210.37,
+     "cpu_c": null,
+     "max_mhz": null
+    }
+   ]
+  },
+  {
+   "kind": "zlib",
+   "procs": 1,
+   "seconds": 30,
+   "avg_units_per_s": 179.28,
+   "first_quarter": 180.58,
+   "last_quarter": 177.58,
+   "drop_pct": 1.7,
+   "samples": [
+    {
+     "t": 5,
+     "units_per_s": 180.58,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 10,
+     "units_per_s": 179.18,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 15,
+     "units_per_s": 179.98,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 20,
+     "units_per_s": 179.18,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 25,
+     "units_per_s": 179.17,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 30,
+     "units_per_s": 177.58,
+     "cpu_c": null,
+     "max_mhz": null
+    }
+   ]
+  },
+  {
+   "kind": "zlib",
+   "procs": 8,
+   "seconds": 120,
+   "avg_units_per_s": 736.93,
+   "first_quarter": 902.8,
+   "last_quarter": 656.04,
+   "drop_pct": 27.3,
+   "samples": [
+    {
+     "t": 5,
+     "units_per_s": 904.18,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 10,
+     "units_per_s": 912.76,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 15,
+     "units_per_s": 914.92,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 20,
+     "units_per_s": 910.32,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 25,
+     "units_per_s": 912.09,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 30,
+     "units_per_s": 862.5,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 35,
+     "units_per_s": 752.88,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 40,
+     "units_per_s": 734.67,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 45,
+     "units_per_s": 758.84,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 50,
+     "units_per_s": 675.33,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 55,
+     "units_per_s": 732.95,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 60,
+     "units_per_s": 727.51,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 65,
+     "units_per_s": 715.01,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 70,
+     "units_per_s": 693.22,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 75,
+     "units_per_s": 674.91,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 80,
+     "units_per_s": 647.32,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 85,
+     "units_per_s": 621.71,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 90,
+     "units_per_s": 598.84,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 95,
+     "units_per_s": 587.28,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 100,
+     "units_per_s": 527.49,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 105,
+     "units_per_s": 619.01,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 110,
+     "units_per_s": 693.49,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 115,
+     "units_per_s": 736.89,
+     "cpu_c": null,
+     "max_mhz": null
+    },
+    {
+     "t": 120,
+     "units_per_s": 772.08,
+     "cpu_c": null,
+     "max_mhz": null
+    }
+   ]
+  }
+ ]
+}
